@@ -10,12 +10,12 @@ void main() {
 	int ifSingleHeader = 1;
 	int singleHeaderCheckCount = 0;
 	element header;
-	element singleheader[] = { "input","img","hr","br","kbd","link" };
+	element singleheader[] = { "input","img","hr","br","MWU","KYH","kbd","link" };
 	//element singleheader[] = { "input","img","hr","br","a","kbd","link" };
 	FILE* fp;
 	fp = fopen("htmlsample.txt", "r");
 	if (fp == NULL) {
-		printf("¿À·ù");
+		printf("Â¿Ã€Â·Ã¹");
 		return;
 	}
 
