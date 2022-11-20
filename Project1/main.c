@@ -11,7 +11,7 @@ void main() {
 	int singleHeaderCheckCount = 0;
 	element header;
 	element singleheader[] = { "input","img","hr","br","MWU","KYH","kbd","link" };
-	//element singleheader[] = { "input","img","hr","br","a","kbd","link" };
+	//element singleheader[] = { "input","img","hr","br","a","MWU","KYH","kbd","link" };
 	FILE* fp;
 	fp = fopen("htmlsample.txt", "r");
 	if (fp == NULL) {
