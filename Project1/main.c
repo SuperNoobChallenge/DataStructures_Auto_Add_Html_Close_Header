@@ -15,7 +15,7 @@ void main() {
 	FILE* fp;
 	fp = fopen("htmlsample.txt", "r");
 	if (fp == NULL) {
-		printf("¿À·ù");
+		printf("파일열기오류입니다.");
 		return;
 	}
 
